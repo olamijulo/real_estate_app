@@ -53,8 +53,8 @@ class _MainScreenState extends State<MainScreen> with TickerProviderStateMixin {
             padding: const EdgeInsets.all(15.0),
             child: SlideTransition(
               position: Tween<Offset>(
-                begin: const Offset(0, 2), // Start below screen
-                end: Offset.zero, // End at original position
+                begin: const Offset(0, 2), 
+                end: Offset.zero,
               ).animate(_animation),
               child: Container(
                 width: 250.0,
@@ -118,7 +118,7 @@ class _MainScreenState extends State<MainScreen> with TickerProviderStateMixin {
             ),
           ),
         )
-      ]), // Display the selected page
+      ]), 
     );
   }
 }

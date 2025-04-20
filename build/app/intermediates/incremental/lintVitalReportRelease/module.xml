@@ -1,14 +1,14 @@
 <lint-module
     format="1"
-    dir="/Users/olamijulo/Documents/real_estate_app/android/app"
+    dir="/Users/olamijulo/Desktop/real_estate_app/android/app"
     name=":app"
     type="APP"
     maven="android:app:"
-    gradle="7.3.0"
-    buildFolder="/Users/olamijulo/Documents/real_estate_app/build/app"
-    bootClassPath="/Users/olamijulo/Library/Android/sdk/platforms/android-34/android.jar:/Users/olamijulo/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    agpVersion="8.1.0"
+    buildFolder="/Users/olamijulo/Desktop/real_estate_app/build/app"
+    bootClassPath="/Users/olamijulo/Library/Android/sdk/platforms/android-35/android.jar:/Users/olamijulo/Library/Android/sdk/build-tools/33.0.1/core-lambda-stubs.jar"
     javaSourceLevel="1.8"
-    compileTarget="android-34">
+    compileTarget="android-35">
   <lintOptions
       abortOnError="true"
       absolutePaths="true"

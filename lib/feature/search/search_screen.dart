@@ -50,9 +50,9 @@ class _SearchScreenState extends State<SearchScreen>
   Widget build(BuildContext context) {
     return Scaffold(
       body: GestureDetector(
-        behavior: HitTestBehavior.translucent, // VERY IMPORTANT
+        behavior: HitTestBehavior.translucent, 
         onTap: () {
-          if (!islayersVisible) return; // if already hidden, do nothing
+          if (!islayersVisible) return; 
           setState(() {
             islayersVisible = false;
           });
@@ -140,7 +140,7 @@ class _SearchScreenState extends State<SearchScreen>
                 },
                 child: Container(
                   color: Colors
-                      .transparent, // MUST be transparent or semi-transparent
+                      .transparent, 
                   width: double.infinity,
                   height: double.infinity,
                 ),

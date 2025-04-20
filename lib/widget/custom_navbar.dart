@@ -45,7 +45,6 @@ class _CutomNavItemState extends State<CutomNavItem>
   }
 
   Future<void> startAnimation() async {
-    // Reset and replay animation
     _controller.reset();
     await _controller.forward();
   }

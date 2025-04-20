@@ -1,4 +1,4 @@
-#Thu Oct 10 09:07:24 WAT 2024
-base.0=/Users/olamijulo/Documents/real_estate_app/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-path.0=classes.dex
+#Sun Apr 20 06:47:01 WAT 2025
+base.0=/Users/olamijulo/Desktop/real_estate_app/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 renamed.0=classes.dex
+path.0=classes.dex

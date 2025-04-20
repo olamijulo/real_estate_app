@@ -87,7 +87,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                           sizeFactor: _easeOutBackAnimation,
                           axis: Axis.horizontal,
                           child: Container(
-                            padding: EdgeInsets.all(10.0),
+                            padding: const EdgeInsets.all(10.0),
                             decoration: BoxDecoration(
                                 color: Colors.white,
                                 borderRadius: BorderRadius.circular(10.0)),
