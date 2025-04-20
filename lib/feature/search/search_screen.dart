@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
@@ -145,7 +146,8 @@ class _SearchScreenState extends State<SearchScreen>
                 ),
               ),
             Padding(
-              padding: const EdgeInsets.symmetric(vertical: 30.0),
+              padding:
+                  EdgeInsets.symmetric(vertical: Platform.isIOS ? 70.0 : 30.0),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
